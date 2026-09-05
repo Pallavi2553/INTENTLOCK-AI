@@ -1,0 +1,17 @@
+{
+  "name": "intentlock-backend",
+  "version": "1.0.0",
+  "description": "Backend engine for INTENTLOCK AI - The payment firewall for autonomous AI",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node tests/firewall.test.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
